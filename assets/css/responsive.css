@@ -51,12 +51,14 @@
         margin-top: 40px;
     }
 
-    .footer-top.row.no-gutters {
-        row-gap: 50px;
-    }
-
     .testimonial-right {
         display: none;
+    }
+
+    .footer-top,
+    .courses-list,
+    .features-list {
+        row-gap: 50px;
     }
 }
 

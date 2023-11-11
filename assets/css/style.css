@@ -80,6 +80,7 @@
 
 .action a {
     color: #2F3A3B;
+    width: 54px;    
 }
 
 .btn.action-btn {
@@ -664,7 +665,7 @@
 }
 
 .footer {
-    padding-top: 130px;
+    padding: 130px 0 50px;
 }
 
 .footer-top img {
