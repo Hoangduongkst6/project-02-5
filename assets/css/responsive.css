@@ -1,0 +1,131 @@
+/* Mobile and Tablet */ 
+@media (max-width: 1023px) {
+    .remove-mobile-tablet {
+        display: none;
+    }
+
+    .header-menu {
+        position: relative;
+    }
+
+    .header-menu img {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .nav-item a {
+        padding: 14px 0;
+        display: block;
+    }
+
+    .bars {
+        display: block;
+    }
+
+    .hero-body {
+        flex-direction: column;
+        row-gap: 50px;
+    }
+
+    .hero-left, 
+    .features-body,
+    .features-top h2,
+    .features-top p,
+    .base-left {
+        width: 100%;
+    }
+
+    .courses-list {
+        row-gap: 50px;
+    }
+
+    .base-body {
+        flex-direction: column;
+    }
+
+    .btn.base-btn {
+        margin: 0;
+        display: inline-block;
+        margin-top: 40px;
+    }
+
+    .footer-top.row.no-gutters {
+        row-gap: 50px;
+    }
+
+    .testimonial-right {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .remove-tablet {
+        display: none;
+    }
+    
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .remove-mobile {
+        display: none;
+    }
+
+    .heading {
+        font-size: 3.5rem;
+    }
+
+    .desc {
+        font-size: 1.6rem;
+    }
+
+    .action {
+        display: none;
+    }
+
+    .hero-book {
+        right: 425px;
+    }
+
+    .hero-schedules {
+        right: 400px;
+    }
+
+    .countdown-list {
+        text-align: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .hero-right {
+        display: none;
+    }
+
+    .hero-left h1 {
+        font-size: 4.3rem;
+    }
+
+    .features-list {
+        row-gap: 50px;
+    }
+
+    .features-item {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .courses-item img {
+        width: 100%;
+    }
+
+    .courses-rectangle {
+        width: 300px;
+        left: 13px;
+    }
+
+}
